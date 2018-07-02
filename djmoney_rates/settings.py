@@ -20,7 +20,6 @@ from django.utils import six
 from django.utils.module_loading import import_module
 
 
-
 USER_SETTINGS = getattr(settings, 'DJANGO_MONEY_RATES', None)
 
 DEFAULTS = {
